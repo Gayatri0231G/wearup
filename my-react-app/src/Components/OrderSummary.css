@@ -59,91 +59,6 @@
   gap: 30px;
 }
 
-/* .summary, .payment {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1;
-}
-
-h3 {
-  margin-bottom: 10px;
-}
-
-p {
-  color: gray;
-}
-
-.order-items .item {
-  display: flex;
-  gap: 10px;
-  margin: 15px 0;
-}
-
-.order-items img {
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-}
-
-.shipping label {
-  display: block;
-  margin: 10px 0;
-  cursor: pointer;
-}
-
-.payment input {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.card-input {
-  display: flex;
-  gap: 10px;
-}
-
-.card-input input {
-  flex: 1;
-}
-
-.card-icon {
-  font-size: 24px;
-  margin-left: 5px;
-}
-
-.address-box {
-  background: #fff;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.pricing {
-  margin-top: 15px;
-}
-
-.pricing p {
-  display: flex;
-  justify-content: space-between;
-}
-
-.total {
-  font-weight: bold;
-}
-
-.pay-btn {
-  background: black;
-  color: white;
-  padding: 15px;
-  width: 100%;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-} */
-
 .order-summary {
   background: #fff;
   padding: 20px;
@@ -239,16 +154,13 @@ p {
   font-weight: bold;
 }
 
-
-
-
 .payment-details {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   font-family: "Arial", sans-serif;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 50%;
+  width: 40%;
 }
 
 .section-title {
