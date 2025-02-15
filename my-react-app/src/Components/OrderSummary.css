@@ -1,13 +1,17 @@
+
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   font-family: "Arial", sans-serif;
 }
 
-.nav {
+.top-section {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  align-items: center;
+  padding: 7px 20px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Arial", sans-serif;
 }
 
 .brand {
@@ -15,25 +19,47 @@
   font-size: 24px;
 }
 
+.order-overview {
+  font-weight: normal;
+  color: #aaa;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
 .steps {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+}
+
+.step {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .completed {
+  color: green;
+  font-weight: bold;
+}
+
+.icon {
   color: green;
 }
 
 .current {
   font-weight: bold;
+  color: black;
 }
+
 
 .content {
   display: flex;
   gap: 30px;
 }
 
-.summary, .payment {
+/* .summary, .payment {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
@@ -116,4 +142,219 @@ p {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+} */
+
+.order-summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-description {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.order-items .item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.order-items img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.item-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.item-price {
+  font-size: 14px;
+  color: black;
+}
+
+.item-price del {
+  color: gray;
+  font-size: 12px;
+}
+
+.item-size {
+  color: gray;
+  font-size: 12px;
+}
+
+.shipping-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.shipping-methods {
+  margin-top: 10px;
+}
+
+.shipping-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.shipping-option.selected {
+  border-color: #000;
+}
+
+.shipping-option input {
+  margin-right: 10px;
+}
+
+.shipping-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-logo {
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.shipping-price {
+  font-weight: bold;
+}
+
+
+
+
+.payment-details {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-description {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.input-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.input-box .icon {
+  color: gray;
+  margin-right: 8px;
+}
+
+.input-box .check-icon {
+  color: green;
+}
+
+.card-input {
+  display: flex;
+  gap: 8px;
+}
+
+.card-input input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.billing-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.billing-row input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.price-details {
+  margin-top: 20px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.price-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pay-button {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background: #333;
 }
