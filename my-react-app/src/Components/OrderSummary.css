@@ -1,60 +1,119 @@
-.order-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .summary-section, .payment-section {
-    width: 48%;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .items-list .item {
-    display: flex;
-    margin-bottom: 15px;
-  }
-  
-  .item img {
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-  }
-  
-  .input-group {
-    margin-bottom: 15px;
-  }
-  
-  .input-box {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .pay-button {
-    background: black;
-    color: white;
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .shipping-option {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
-  
-  .selected {
-    background: #f0f0f0;
-    border-color: #000;
-  }
-  
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.steps {
+  display: flex;
+  gap: 15px;
+}
+
+.completed {
+  color: green;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.summary, .payment {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+p {
+  color: gray;
+}
+
+.order-items .item {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.order-items img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.shipping label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.payment input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-input {
+  display: flex;
+  gap: 10px;
+}
+
+.card-input input {
+  flex: 1;
+}
+
+.card-icon {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.address-box {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pricing {
+  margin-top: 15px;
+}
+
+.pricing p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.pay-btn {
+  background: black;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,6 +1,5 @@
-
 import React from "react";
-import OrderSummary from "./OrderSummary.jsx"; 
+import OrderSummary from "./OrderSummary.jsx";
 
 export default {
   title: "Components/OrderSummary",
